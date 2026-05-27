@@ -261,10 +261,10 @@ jobs:
             kubectl rollout restart deployment/logguard-ml
 
             echo "--- Waiting for API rollout ---"
-            kubectl rollout status deployment/logguard-api --timeout=120s
+            kubectl rollout status deployment/logguard-api --timeout=600s
 
             echo "--- Waiting for Web rollout ---"
-            kubectl rollout status deployment/logguard-web --timeout=120s
+            kubectl rollout status deployment/logguard-web --timeout=600s
 
             echo "--- Pod status ---"
             kubectl get pods
