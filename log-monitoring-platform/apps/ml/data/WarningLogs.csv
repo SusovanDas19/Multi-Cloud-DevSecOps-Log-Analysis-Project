@@ -1,0 +1,536 @@
+Level,Date and Time,Source,Event ID,Task Category,Log Message
+Warning,4/4/2025 9:09:40 PM,Win32k,701,,Power Manager has not requested suppression of all input (INPUT_SUPPRESS_REQUEST=0)
+Warning,4/4/2025 8:58:15 PM,Win32k,700,,Power Manager has requested suppression of all input (INPUT_SUPPRESS_REQUEST=1)
+Warning,4/4/2025 7:37:48 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,4/4/2025 3:11:54 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container MicrosoftWindows.Client.WebExperience_525.5100.40.0_x64__cw5n1h2txyewy SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,4/4/2025 9:25:40 AM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID 
+Windows.SecurityCenter.SecurityAppBroker
+ and APPID 
+Unavailable
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,4/4/2025 9:25:40 AM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID 
+Windows.SecurityCenter.WscDataProtection
+ and APPID 
+Unavailable
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,4/4/2025 9:25:40 AM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID 
+Windows.SecurityCenter.WscBrokerManager
+ and APPID 
+Unavailable
+ to the user NT AUTHORITY\SYSTEM SID (S-1-5-18) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,4/4/2025 8:48:16 AM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{6B3B8D23-FA8D-40B9-8DBD-B950333E2C52}
+ and APPID 
+{4839DDB7-58C2-48F5-8283-E1D1807D0D7D}
+ to the user NT AUTHORITY\LOCAL SERVICE SID (S-1-5-19) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,4/4/2025 8:48:08 AM,Microsoft-Windows-Kernel-PnP,219,(212),"The driver \Driver\WUDFRd failed to load.
+Device: USB\VID_2808&PID_A658\6&13c452c7&0&1
+Status: 0xC0000365"
+Warning,4/4/2025 3:00:30 AM,Microsoft-Windows-WLAN-AutoConfig,10002,,"WLAN Extensibility Module has stopped.
+
+Module Path: C:\WINDOWS\system32\mtkihvx.dll
+"
+Warning,4/3/2025 7:51:47 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Launch permission for the COM Server application with CLSID 
+Windows.SecurityCenter.WscCloudBackupProvider
+ and APPID 
+Unavailable
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,4/3/2025 3:18:04 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 14628.
+Warning,4/2/2025 4:06:07 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s2-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 14748.
+Warning,4/2/2025 2:14:09 AM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container MicrosoftWindows.Client.WebExperience_525.1301.30.0_x64__cw5n1h2txyewy SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,4/1/2025 11:30:04 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 5908.
+Warning,4/1/2025 8:20:48 PM,BTHUSB,6,,Only one active Bluetooth adapter is supported at a time.
+Warning,4/1/2025 8:15:02 PM,Microsoft-Windows-USB-USBHUB3,196,Surprise Removal,"USB device draining system power when system is idle.             
+             
+USB Device: VID: 0xA12 PID: 0x1 REV: 0x8891             
+Removal action failed: QueryRemovalInitiated"
+Warning,4/1/2025 6:28:47 PM,BTHUSB,34,,"The local adapter does not support an important Low Energy controller state to support peripheral mode.  The minimum required supported state mask is 0x2491f7fffff, got 0x1fffffff.  Low Energy peripheral role functionality will not be available."
+Warning,4/1/2025 3:52:18 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 8748.
+Warning,3/31/2025 3:28:56 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 14424.
+Warning,3/31/2025 2:55:52 PM,Microsoft-Windows-DistributedCOM,10016,,"The machine-default permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{C2F03A33-21F5-47FA-B4BB-156362A2F239}
+ and APPID 
+{316CDED5-E4AE-4B15-9113-7055D84DCC97}
+ to the user NT AUTHORITY\LOCAL SERVICE SID (S-1-5-19) from address LocalHost (Using LRPC) running in the application container Unavailable SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,3/31/2025 2:46:02 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container MicrosoftWindows.Client.CBS_1000.26100.66.0_x64__cw5n1h2txyewy SID (S-1-15-2-283421221-3183566570-1718213290-751554359-3541592344-2312209569-3374928651). This security permission can be modified using the Component Services administrative tool."
+Warning,3/31/2025 2:33:42 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s2-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 14756.
+Warning,3/31/2025 11:36:34 AM,BTHUSB,3,,A command sent to the adapter has timed out. The adapter did not respond.
+Warning,3/31/2025 11:36:25 AM,Microsoft-Windows-USB-USBHUB3,196,Surprise Removal,"USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x13D3 PID: 0x3563 REV: 0x100             
+Removal action failed: QueryRemovalInitiated"
+Warning,3/31/2025 10:34:39 AM,Microsoft-Windows-Time-Service,134,,"NtpClient was unable to set a manual peer to use as a time source because of DNS resolution error on 'time.windows.com,0x9'. NtpClient will try again in 15 minutes and double the reattempt interval thereafter. The error was: No such host is known. (0x80072AF9)"
+Warning,3/31/2025 12:47:11 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 8556.
+Warning,3/30/2025 4:57:00 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 8556.
+Warning,3/30/2025 12:59:50 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name eastus-8.in.applicationinsights.azure.com timed out after none of the configured DNS servers responded. Client PID 3948.
+Warning,3/29/2025 1:26:48 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 7224.
+Warning,3/29/2025 1:15:07 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 4496.
+Warning,3/29/2025 1:14:56 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 7224.
+Warning,3/29/2025 12:38:19 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name www.gstatic.com timed out after none of the configured DNS servers responded. Client PID 18716.
+Warning,3/27/2025 4:24:31 PM,Microsoft-Windows-USB-USBHUB3,196,Surprise Removal,"USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x13D3 PID: 0x3563 REV: 0x100             
+Removal action failed: SkippedAsRecentIoObservered"
+Warning,3/27/2025 11:25:56 AM,Microsoft-Windows-USB-USBHUB3,196,Surprise Removal,"USB device draining system power when system is idle.             
+             
+USB Device: VID: 0x2808 PID: 0xA658 REV: 0x110             
+Removal action failed: QueryRemovalInitiated"
+Warning,3/26/2025 10:22:41 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s2-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 14008.
+Warning,3/26/2025 3:14:26 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 3308.
+Warning,3/25/2025 2:34:55 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 3668.
+Warning,3/24/2025 11:31:22 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name boot.net.anydesk.com timed out after none of the configured DNS servers responded. Client PID 5332.
+Warning,3/24/2025 11:30:48 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2344.
+Warning,3/24/2025 11:27:31 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name hls-d33ef8.hollymoviehdcdn03.asia timed out after none of the configured DNS servers responded. Client PID 21160.
+Warning,3/24/2025 11:27:07 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name collector.bsg.brave.com timed out after none of the configured DNS servers responded. Client PID 21160.
+Warning,3/24/2025 11:25:59 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name catalog.gamepass.com timed out after none of the configured DNS servers responded. Client PID 9236.
+Warning,3/24/2025 1:17:16 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 20436.
+Warning,3/23/2025 11:08:42 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name api.github.com timed out after none of the configured DNS servers responded. Client PID 10596.
+Warning,3/23/2025 11:08:41 AM,Microsoft-Windows-WLAN-AutoConfig,4003,,"WLAN AutoConfig detected limited connectivity, attempting automatic recovery.
+
+Recovery Type: 4
+Error Code: 0x0
+Trigger Reason: 7
+IP Family: 0
+"
+Warning,3/23/2025 11:08:05 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name hls-d33ef8.hollymoviehdcdn05.site timed out after none of the configured DNS servers responded. Client PID 10596.
+Warning,3/23/2025 2:56:27 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 19580.
+Warning,3/22/2025 10:04:08 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 19580.
+Warning,3/22/2025 2:35:34 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 11272.
+Warning,3/21/2025 11:50:09 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s1-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 11272.
+Warning,3/20/2025 1:18:33 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s2-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 8568.
+Warning,3/19/2025 12:38:13 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 8568.
+Warning,3/18/2025 12:02:04 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 8876.
+Warning,3/16/2025 9:56:52 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2736.
+Warning,3/16/2025 9:56:50 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name hls-d33ef8.hollymoviehdcdn05.site timed out after none of the configured DNS servers responded. Client PID 18876.
+Warning,3/16/2025 9:56:45 PM,Microsoft-Windows-WLAN-AutoConfig,4003,,"WLAN AutoConfig detected limited connectivity, attempting automatic recovery.
+
+Recovery Type: 4
+Error Code: 0x0
+Trigger Reason: 3
+IP Family: 0
+"
+Warning,3/15/2025 4:15:36 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name activity.windows.com timed out after none of the configured DNS servers responded. Client PID 21552.
+Warning,3/15/2025 4:15:32 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2408.
+Warning,3/15/2025 12:18:36 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 9156.
+Warning,3/13/2025 6:19:22 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 11384.
+Warning,3/13/2025 9:43:52 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 21268.
+Warning,3/13/2025 9:41:29 AM,Microsoft-Windows-Kernel-PnP,219,(212),"The driver \Driver\MSKSSRV failed to load.
+Device: SW\{96E080C7-143C-11D1-B40F-00A0C9223196}\{3C0D501A-140B-11D1-B40F-00A0C9223196}
+Status: 0xC000026C"
+Warning,3/12/2025 5:53:29 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2644.
+Warning,3/11/2025 1:13:32 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 3932.
+Warning,3/9/2025 11:49:27 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ and APPID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-1866480588-3470884947-360973120-2589011186-8515414-168393181-2960790637). This security permission can be modified using the Component Services administrative tool."
+Warning,3/9/2025 11:47:30 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 19048.
+Warning,3/9/2025 6:11:35 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ and APPID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-229007260-4291185465-373359989-91502698-2014354578-3121901877-471533094). This security permission can be modified using the Component Services administrative tool."
+Warning,3/9/2025 6:11:06 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ and APPID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-2039252962-1731491252-994013783-2779878637-2531451432-3805887641-1183914879). This security permission can be modified using the Component Services administrative tool."
+Warning,3/9/2025 5:19:01 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 16520.
+Warning,3/8/2025 8:00:09 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 13180.
+Warning,3/8/2025 4:56:50 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 18220.
+Warning,3/7/2025 8:24:23 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 6840.
+Warning,3/7/2025 2:09:23 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name media-hyd1-2.cdn.whatsapp.net timed out after none of the configured DNS servers responded. Client PID 3540.
+Warning,3/6/2025 11:52:39 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 16064.
+Warning,3/6/2025 8:10:08 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 16064.
+Warning,3/6/2025 3:05:10 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 5144.
+Warning,3/5/2025 11:37:41 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 19584.
+Warning,3/4/2025 10:02:20 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 19772.
+Warning,3/4/2025 9:09:59 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 1592.
+Warning,3/4/2025 7:41:34 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name mobile.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 14344.
+Warning,3/4/2025 7:16:29 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 10296.
+Warning,3/4/2025 10:57:10 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 1700.
+Warning,3/4/2025 10:56:41 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name 1D.tlu.dl.delivery.mp.microsoft.com timed out after none of the configured DNS servers responded. Client PID 13700.
+Warning,3/4/2025 2:43:00 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 4508.
+Warning,3/4/2025 1:56:32 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 14900.
+Warning,3/4/2025 1:43:13 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 13608.
+Warning,3/3/2025 11:54:45 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 7436.
+Warning,3/3/2025 8:31:26 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 18364.
+Warning,3/3/2025 5:21:47 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 5048.
+Warning,3/3/2025 4:29:32 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2320.
+Warning,3/3/2025 4:17:49 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s2-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 15920.
+Warning,3/3/2025 3:17:07 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 28120.
+Warning,3/2/2025 10:14:37 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 51752.
+Warning,3/2/2025 8:43:24 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 1768.
+Warning,3/2/2025 8:32:13 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ and APPID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-3153812462-2465669715-785821010-2383778965-173716543-1583937763-3770092607). This security permission can be modified using the Component Services administrative tool."
+Warning,3/2/2025 3:33:14 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 17432.
+Warning,3/1/2025 5:10:08 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 15500.
+Warning,3/1/2025 1:00:04 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 5172.
+Warning,3/1/2025 12:27:02 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 19432.
+Warning,2/28/2025 8:28:38 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name mobile.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 7444.
+Warning,2/28/2025 8:26:23 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 24228.
+Warning,2/28/2025 8:25:13 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2712.
+Warning,2/28/2025 7:18:43 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 22904.
+Warning,2/27/2025 9:11:12 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 12336.
+Warning,2/27/2025 8:25:52 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container MSTeams_25017.203.3370.1174_x64__8wekyb3d8bbwe SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,2/27/2025 5:47:47 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ and APPID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-2989899742-2786584378-1111822703-1063369625-2732440282-291313558-107730509). This security permission can be modified using the Component Services administrative tool."
+Warning,2/27/2025 3:39:06 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 6048.
+Warning,2/26/2025 11:14:05 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 41892.
+Warning,2/26/2025 10:06:45 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 13132.
+Warning,2/26/2025 9:22:20 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 4920.
+Warning,2/26/2025 9:12:55 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ and APPID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-1161979446-4010672281-2928890623-3671354009-3665329993-3519349275-3037599475). This security permission can be modified using the Component Services administrative tool."
+Warning,2/26/2025 7:53:08 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container MSTeams_24295.605.3225.8804_x64__8wekyb3d8bbwe SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,2/26/2025 7:40:08 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 15160.
+Warning,2/26/2025 12:30:44 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 22944.
+Warning,2/25/2025 10:12:06 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 19972.
+Warning,2/25/2025 9:58:05 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name audio-ak.spotifycdn.com timed out after none of the configured DNS servers responded. Client PID 19972.
+Warning,2/25/2025 9:33:48 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 8740.
+Warning,2/25/2025 9:27:44 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 19656.
+Warning,2/24/2025 12:44:45 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 10168.
+Warning,2/24/2025 2:47:55 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s2-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 12072.
+Warning,2/24/2025 1:54:10 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 12892.
+Warning,2/24/2025 12:38:09 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 16752.
+Warning,2/24/2025 12:05:59 AM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Microsoft.Copilot_1.25014.121.0_x64__8wekyb3d8bbwe SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,2/23/2025 4:40:15 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 4696.
+Warning,2/23/2025 4:37:08 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 5800.
+Warning,2/23/2025 3:17:36 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 5040.
+Warning,2/23/2025 2:22:55 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 17468.
+Warning,2/22/2025 1:49:27 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 22684.
+Warning,2/21/2025 3:30:17 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 11616.
+Warning,2/21/2025 4:14:11 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 14744.
+Warning,2/20/2025 1:50:29 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 8804.
+Warning,2/20/2025 11:53:25 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 11244.
+Warning,2/20/2025 3:11:13 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 8172.
+Warning,2/20/2025 12:47:43 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name mobile.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 6660.
+Warning,2/20/2025 12:08:13 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ipv6.msftconnecttest.com timed out after none of the configured DNS servers responded. Client PID 2508.
+Warning,2/20/2025 12:06:29 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name prod.otel.kaizen.nvidia.com timed out after none of the configured DNS servers responded. Client PID 12332.
+Warning,2/19/2025 3:18:51 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 5648.
+Warning,2/17/2025 7:32:22 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 15296.
+Warning,2/17/2025 5:41:48 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 5060.
+Warning,2/17/2025 3:32:14 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 18560.
+Warning,2/16/2025 6:37:44 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name tracker.openbittorrent.com timed out after none of the configured DNS servers responded. Client PID 15748.
+Warning,2/16/2025 4:48:57 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name activity.windows.com timed out after none of the configured DNS servers responded. Client PID 13232.
+Warning,2/16/2025 4:09:53 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name tracker.openbittorrent.com timed out after none of the configured DNS servers responded. Client PID 23448.
+Warning,2/14/2025 1:28:33 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 17792.
+Warning,2/13/2025 2:14:55 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 17312.
+Warning,2/13/2025 1:09:38 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 11436.
+Warning,2/12/2025 6:00:01 PM,Microsoft-Windows-TPM-WMI,1800,,A reboot is required before installing the Secure Boot update. Reason: 6
+Warning,2/12/2025 2:12:56 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 2384.
+Warning,2/12/2025 1:34:41 AM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ and APPID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-1468723019-2781287203-230327459-2940664398-230325790-840543577-3001831449). This security permission can be modified using the Component Services administrative tool."
+Warning,2/12/2025 12:40:36 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 2384.
+Warning,2/12/2025 12:40:34 AM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ and APPID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-1134895606-3139756740-903086072-4169722100-591810249-623353831-364943064). This security permission can be modified using the Component Services administrative tool."
+Warning,2/11/2025 8:43:26 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 3588.
+Warning,2/11/2025 7:04:34 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Microsoft.Copilot_1.25012.117.0_x64__8wekyb3d8bbwe SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,2/11/2025 6:41:36 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name mmg.whatsapp.net timed out after none of the configured DNS servers responded. Client PID 10820.
+Warning,2/11/2025 5:46:08 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 17964.
+Warning,2/11/2025 5:39:24 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ and APPID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-4268204216-3822793147-4009096194-1258093577-4214042477-4142857314-1934926347). This security permission can be modified using the Component Services administrative tool."
+Warning,2/11/2025 4:24:38 PM,Microsoft-Windows-WLAN-AutoConfig,4003,,"WLAN AutoConfig detected limited connectivity, attempting automatic recovery.
+
+Recovery Type: 4
+Error Code: 0x0
+Trigger Reason: 5
+IP Family: 0
+"
+Warning,2/11/2025 3:36:02 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 16348.
+Warning,2/9/2025 4:28:05 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 15940.
+Warning,2/9/2025 3:46:34 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 26812.
+Warning,2/8/2025 8:36:47 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ipv6.msftconnecttest.com timed out after none of the configured DNS servers responded. Client PID 2436.
+Warning,2/8/2025 7:13:43 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 26560.
+Warning,2/8/2025 12:06:42 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 4980.
+Warning,2/7/2025 10:11:35 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name www.msftconnecttest.com timed out after none of the configured DNS servers responded. Client PID 2436.
+Warning,2/7/2025 10:09:12 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name 189749-ipv4mte.gr.global.aa-rt.sharepoint.com timed out after none of the configured DNS servers responded. Client PID 20380.
+Warning,2/7/2025 10:09:08 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 5140.
+Warning,2/7/2025 10:08:43 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name mobile.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 6368.
+Warning,2/7/2025 10:08:39 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2492.
+Warning,2/7/2025 10:02:21 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 13228.
+Warning,2/7/2025 9:55:49 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 13208.
+Warning,2/7/2025 9:07:12 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name mobile.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 16484.
+Warning,2/7/2025 10:40:00 AM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Microsoft.Copilot_1.25011.96.0_x64__8wekyb3d8bbwe SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,2/7/2025 2:25:11 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 16500.
+Warning,2/7/2025 2:04:37 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 23948.
+Warning,2/6/2025 9:19:14 PM,Microsoft-Windows-WLAN-AutoConfig,4003,,"WLAN AutoConfig detected limited connectivity, attempting automatic recovery.
+
+Recovery Type: 4
+Error Code: 0x0
+Trigger Reason: 1
+IP Family: 0
+"
+Warning,2/6/2025 9:19:05 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name www.msftncsi.com timed out after none of the configured DNS servers responded. Client PID 2436.
+Warning,2/6/2025 9:16:23 PM,Microsoft-Windows-WLAN-AutoConfig,4003,,"WLAN AutoConfig detected limited connectivity, attempting automatic recovery.
+
+Recovery Type: 4
+Error Code: 0x0
+Trigger Reason: 2
+IP Family: 0
+"
+Warning,2/6/2025 9:16:00 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name activity.windows.com timed out after none of the configured DNS servers responded. Client PID 16256.
+Warning,2/6/2025 8:05:18 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name g.whatsapp.net timed out after none of the configured DNS servers responded. Client PID 13132.
+Warning,2/6/2025 5:19:50 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container MicrosoftWindows.Client.WebExperience_524.34401.20.0_x64__cw5n1h2txyewy SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,2/5/2025 8:26:23 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s1-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 16084.
+Warning,2/5/2025 1:04:25 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 23564.
+Warning,2/5/2025 1:03:48 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 17096.
+Warning,2/4/2025 9:25:57 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 23752.
+Warning,2/3/2025 10:05:02 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 7432.
+Warning,2/3/2025 10:04:42 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 17984.
+Warning,2/3/2025 9:19:17 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name go-updater.brave.com timed out after none of the configured DNS servers responded. Client PID 17984.
+Warning,2/3/2025 9:19:15 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name substrate.office.com timed out after none of the configured DNS servers responded. Client PID 2848.
+Warning,2/3/2025 9:19:10 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ext2.temp-mail.org timed out after none of the configured DNS servers responded. Client PID 17984.
+Warning,2/3/2025 9:14:03 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 8236.
+Warning,2/3/2025 9:11:50 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 10564.
+Warning,2/3/2025 9:05:48 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name main.vscode-cdn.net timed out after none of the configured DNS servers responded. Client PID 10564.
+Warning,2/3/2025 9:04:28 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name fp-afd.azureedge.us timed out after none of the configured DNS servers responded. Client PID 11588.
+Warning,2/3/2025 9:01:28 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name relay-30fbe9f1.net.anydesk.com timed out after none of the configured DNS servers responded. Client PID 5940.
+Warning,2/3/2025 8:59:08 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name geo.prod.do.dsp.mp.microsoft.com timed out after none of the configured DNS servers responded. Client PID 16612.
+Warning,2/3/2025 8:55:03 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name c-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 11588.
+Warning,2/3/2025 8:48:35 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name client.wns.windows.com timed out after none of the configured DNS servers responded. Client PID 6828.
+Warning,2/3/2025 8:05:01 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 11588.
+Warning,2/3/2025 5:53:03 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ecs.office.com timed out after none of the configured DNS servers responded. Client PID 7256.
+Warning,2/2/2025 11:36:08 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 16848.
+Warning,2/2/2025 8:22:28 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 18252.
+Warning,2/2/2025 8:00:41 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 4268.
+Warning,2/2/2025 7:57:04 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 5464.
+Warning,2/1/2025 8:24:35 PM,Microsoft-Windows-Kernel-PnP,225,(223),"The application \Device\HarddiskVolume3\Windows\System32\audiodg.exe with process id 4992 stopped the removal or ejection for the device ROOT\UNNAMED_DEVICE\0000.
+Process command line: C:\WINDOWS\system32\AUDIODG.EXE 0x00000000000006D8
+List of affected devices:
+ROOT\UNNAMED_DEVICE\0000
+"
+Warning,2/1/2025 8:24:35 PM,Microsoft-Windows-Kernel-PnP,225,(223),"The application \Device\HarddiskVolume3\Program Files\NVIDIA Corporation\NVIDIA Broadcast\NvVirtualCamera\NVIDIA Broadcast.exe with process id 1488 stopped the removal or ejection for the device ROOT\UNNAMED_DEVICE\0000.
+Process command line: ""C:\Program Files\NVIDIA Corporation\NVIDIA Broadcast\NvVirtualCamera\NVIDIA Broadcast.exe""
+List of affected devices:
+ROOT\UNNAMED_DEVICE\0000
+"
+Warning,2/1/2025 2:33:51 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 11572.
+Warning,1/31/2025 7:45:54 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 19280.
+Warning,1/31/2025 6:57:05 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s2-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 19280.
+Warning,1/30/2025 10:14:37 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name media-del2-1.cdn.whatsapp.net timed out after none of the configured DNS servers responded. Client PID 29036.
+Warning,1/30/2025 10:14:37 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name media-ccu1-2.cdn.whatsapp.net timed out after none of the configured DNS servers responded. Client PID 29036.
+Warning,1/30/2025 9:28:16 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2560.
+Warning,1/30/2025 9:27:57 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ipv6.msftconnecttest.com timed out after none of the configured DNS servers responded. Client PID 2184.
+Warning,1/30/2025 9:27:54 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name client.wns.windows.com timed out after none of the configured DNS servers responded. Client PID 6192.
+Warning,1/30/2025 9:27:52 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 19992.
+Warning,1/30/2025 9:27:51 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name www.msftconnecttest.com timed out after none of the configured DNS servers responded. Client PID 6200.
+Warning,1/30/2025 9:27:39 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name www.msftconnecttest.com timed out after none of the configured DNS servers responded. Client PID 2184.
+Warning,1/30/2025 8:43:30 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name a-ring-fallback.msedge.net timed out after none of the configured DNS servers responded. Client PID 10952.
+Warning,1/30/2025 6:23:23 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name accounts.youtube.com timed out after none of the configured DNS servers responded. Client PID 25776.
+Warning,1/30/2025 10:49:11 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name assets.msn.com timed out after none of the configured DNS servers responded. Client PID 18912.
+Warning,1/29/2025 9:26:33 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 28872.
+Warning,1/29/2025 10:26:53 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name prod.otel.kaizen.nvidia.com timed out after none of the configured DNS servers responded. Client PID 5912.
+Warning,1/29/2025 12:37:06 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 28096.
+Warning,1/28/2025 7:30:30 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 14716.
+Warning,1/28/2025 7:29:57 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 18392.
+Warning,1/28/2025 12:04:09 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ and APPID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-2218582308-122146732-1350109957-3802119554-3108896993-642053998-3678129898). This security permission can be modified using the Component Services administrative tool."
+Warning,1/28/2025 11:12:38 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name www.goclasses.in timed out after none of the configured DNS servers responded. Client PID 11428.
+Warning,1/27/2025 11:59:29 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s2-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 21008.
+Warning,1/27/2025 9:08:22 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name i.ctnsnet.com timed out after none of the configured DNS servers responded. Client PID 32344.
+Warning,1/26/2025 10:04:31 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 14704.
+Warning,1/25/2025 8:06:32 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 13880.
+Warning,1/25/2025 5:30:37 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 5152.
+Warning,1/25/2025 12:12:14 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 16432.
+Warning,1/24/2025 1:01:10 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name chatgpt.com timed out after none of the configured DNS servers responded. Client PID 33152.
+Warning,1/24/2025 1:00:06 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 33152.
+Warning,1/24/2025 1:00:02 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ocws.officeapps.live.com timed out after none of the configured DNS servers responded. Client PID 29804.
+Warning,1/23/2025 6:00:26 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ipv6.msftconnecttest.com timed out after none of the configured DNS servers responded. Client PID 2176.
+Warning,1/23/2025 3:19:49 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 3128.
+Warning,1/23/2025 3:18:47 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name self.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 22396.
+Warning,1/23/2025 3:18:34 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2612.
+Warning,1/22/2025 11:52:36 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 4888.
+Warning,1/22/2025 12:10:11 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ and APPID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-2361618886-3540506603-3144565007-967898502-2104908908-1693259147-3335501771). This security permission can be modified using the Component Services administrative tool."
+Warning,1/22/2025 11:19:42 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name safebrowsing.googleapis.com timed out after none of the configured DNS servers responded. Client PID 28132.
+Warning,1/22/2025 11:11:40 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name play.google.com timed out after none of the configured DNS servers responded. Client PID 28132.
+Warning,1/21/2025 12:43:55 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 10960.
+Warning,1/20/2025 11:12:35 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name extension.femetrics.grammarly.io timed out after none of the configured DNS servers responded. Client PID 192.
+Warning,1/19/2025 11:41:23 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 23136.
+Warning,1/19/2025 6:30:52 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 33080.
+Warning,1/19/2025 6:03:35 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name client.wns.windows.com timed out after none of the configured DNS servers responded. Client PID 6136.
+Warning,1/18/2025 4:40:20 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 19444.
+Warning,1/17/2025 11:12:31 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name geo.prod.do.dsp.mp.microsoft.com timed out after none of the configured DNS servers responded. Client PID 2540.
+Warning,1/17/2025 11:11:41 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name public.sqrx.com timed out after none of the configured DNS servers responded. Client PID 20500.
+Warning,1/17/2025 11:08:29 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ext2.temp-mail.org timed out after none of the configured DNS servers responded. Client PID 20628.
+Warning,1/17/2025 11:08:22 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name server.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 5960.
+Warning,1/17/2025 11:08:21 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name relay-ea245132.net.anydesk.com timed out after none of the configured DNS servers responded. Client PID 5252.
+Warning,1/17/2025 11:07:57 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name self.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 7676.
+Warning,1/17/2025 11:06:23 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name www.msftconnecttest.com timed out after none of the configured DNS servers responded. Client PID 2176.
+Warning,1/17/2025 10:35:08 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name server.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 12932.
+Warning,1/17/2025 10:34:47 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name star-randsrv.bsg.brave.com timed out after none of the configured DNS servers responded. Client PID 20628.
+Warning,1/17/2025 10:34:11 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name substrate.office.com timed out after none of the configured DNS servers responded. Client PID 12932.
+Warning,1/16/2025 7:19:34 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 2812.
+Warning,1/16/2025 11:19:41 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name self.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 13000.
+Warning,1/16/2025 11:19:22 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name server.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 11592.
+Warning,1/16/2025 11:19:19 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name public.sqrx.com timed out after none of the configured DNS servers responded. Client PID 5440.
+Warning,1/16/2025 11:18:15 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ssl.gstatic.com timed out after none of the configured DNS servers responded. Client PID 5440.
+Warning,1/15/2025 10:14:55 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 18396.
+Warning,1/15/2025 8:03:46 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 14668.
+Warning,1/15/2025 11:57:48 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ssl.gstatic.com timed out after none of the configured DNS servers responded. Client PID 1444.
+Warning,1/15/2025 10:24:11 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name relay-aa6a8e8a.net.anydesk.com timed out after none of the configured DNS servers responded. Client PID 6036.
+Warning,1/15/2025 10:24:06 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name assets.msn.com timed out after none of the configured DNS servers responded. Client PID 5556.
+Warning,1/14/2025 9:50:52 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 12204.
+Warning,1/14/2025 5:44:16 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 5352.
+Warning,1/14/2025 1:16:55 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s2-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 11828.
+Warning,1/13/2025 9:20:29 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 16268.
+Warning,1/13/2025 8:06:11 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name mobile.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 17528.
+Warning,1/13/2025 10:14:44 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name storeedgefd.dsx.mp.microsoft.com timed out after none of the configured DNS servers responded. Client PID 12892.
+Warning,1/12/2025 11:09:36 PM,Microsoft-Windows-Kernel-PnP,225,(223),"The application \Device\HarddiskVolume3\Windows\System32\svchost.exe with process id 4436 stopped the removal or ejection for the device HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1007\5&79adabd&0&0001.
+Process command line: C:\WINDOWS\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s AudioEndpointBuilder
+List of affected devices:
+HDAUDIO\FUNC_01&VEN_1002&DEV_AA01&SUBSYS_00AA0100&REV_1007\5&79adabd&0&0001
+"
+Warning,1/12/2025 4:46:36 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name assets.msn.com timed out after none of the configured DNS servers responded. Client PID 5316.
+Warning,1/12/2025 4:46:30 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2548.
+Warning,1/11/2025 2:41:46 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s2-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 17008.
+Warning,1/9/2025 11:02:15 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name kv801.prod.do.dsp.mp.microsoft.com timed out after none of the configured DNS servers responded. Client PID 37080.
+Warning,1/8/2025 11:27:40 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ext2.temp-mail.org timed out after none of the configured DNS servers responded. Client PID 33328.
+Warning,1/8/2025 11:00:35 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name skydrive.wns.windows.com timed out after none of the configured DNS servers responded. Client PID 17304.
+Warning,1/8/2025 2:42:59 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name i.ytimg.com timed out after none of the configured DNS servers responded. Client PID 38328.
+Warning,1/8/2025 2:42:00 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name public.sqrx.com timed out after none of the configured DNS servers responded. Client PID 5228.
+Warning,1/7/2025 11:20:22 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name mobile.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 8344.
+Warning,1/7/2025 11:19:16 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name substrate.office.com timed out after none of the configured DNS servers responded. Client PID 43880.
+Warning,1/7/2025 11:18:26 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name kv501.prod.do.dsp.mp.microsoft.com timed out after none of the configured DNS servers responded. Client PID 37080.
+Warning,1/7/2025 11:18:06 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name self.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 13236.
+Warning,1/7/2025 11:17:45 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name geo.prod.do.dsp.mp.microsoft.com timed out after none of the configured DNS servers responded. Client PID 37080.
+Warning,1/7/2025 11:17:27 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 38328.
+Warning,1/7/2025 11:16:55 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ext2.temp-mail.org timed out after none of the configured DNS servers responded. Client PID 38328.
+Warning,1/7/2025 10:04:17 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name substrate.office.com timed out after none of the configured DNS servers responded. Client PID 12668.
+Warning,1/7/2025 8:18:10 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s2-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 12524.
+Warning,1/7/2025 8:12:51 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 12524.
+Warning,1/7/2025 6:57:17 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{2593F8B9-4EAF-457C-B68A-50F6B8EA6B54}
+ and APPID 
+{15C20B67-12E7-4BB6-92BB-7AFF07997402}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container MicrosoftWindows.Client.WebExperience_524.30502.30.0_x64__cw5n1h2txyewy SID (Unavailable). This security permission can be modified using the Component Services administrative tool."
+Warning,1/7/2025 12:48:29 PM,Microsoft-Windows-DistributedCOM,10016,,"The application-specific permission settings do not grant Local Activation permission for the COM Server application with CLSID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ and APPID 
+{8BC3F05E-D86B-11D0-A075-00C04FB68820}
+ to the user RITAM-ASUS\ritam SID (S-1-5-21-2924747246-3930347400-3812659321-1001) from address LocalHost (Using LRPC) running in the application container Unavailable SID (S-1-15-2-3682543923-2157362710-734043871-2375662346-3303037140-1766885657-463046733). This security permission can be modified using the Component Services administrative tool."
+Warning,1/7/2025 12:27:43 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name mobile.events.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 13252.
+Warning,1/6/2025 10:58:56 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name rr2---sn-qxaeenld.googlevideo.com timed out after none of the configured DNS servers responded. Client PID 21404.
+Warning,1/6/2025 10:57:30 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name accounts.youtube.com timed out after none of the configured DNS servers responded. Client PID 21404.
+Warning,1/6/2025 10:57:20 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name th.bing.com timed out after none of the configured DNS servers responded. Client PID 42132.
+Warning,1/6/2025 10:57:16 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name www.msftconnecttest.com timed out after none of the configured DNS servers responded. Client PID 2132.
+Warning,1/6/2025 10:56:18 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ipv6.msftncsi.com timed out after none of the configured DNS servers responded. Client PID 2132.
+Warning,1/6/2025 10:53:55 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name www.bing.com timed out after none of the configured DNS servers responded. Client PID 42132.
+Warning,1/5/2025 6:37:32 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 34080.
+Warning,1/5/2025 4:07:05 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name activity.windows.com timed out after none of the configured DNS servers responded. Client PID 28344.
+Warning,1/5/2025 4:07:00 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 2488.
+Warning,1/5/2025 4:01:29 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 34080.
+Warning,1/5/2025 1:21:52 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name wpad timed out after none of the configured DNS servers responded. Client PID 20552.
+Warning,1/5/2025 12:32:44 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name www.google.com timed out after none of the configured DNS servers responded. Client PID 20552.
+Warning,1/4/2025 4:54:25 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s2-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 8632.
+Warning,1/4/2025 10:39:56 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s1-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 8632.
+Warning,1/3/2025 11:52:54 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 18180.
+Warning,1/3/2025 9:02:29 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name hbopenbid.pubmatic.com timed out after none of the configured DNS servers responded. Client PID 12064.
+Warning,1/3/2025 8:29:14 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 4820.
+Warning,1/2/2025 9:01:07 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name www.google.com timed out after none of the configured DNS servers responded. Client PID 19868.
+Warning,1/2/2025 8:48:07 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name in.grammarly.com timed out after none of the configured DNS servers responded. Client PID 19868.
+Warning,1/1/2025 1:24:21 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 22796.
+Warning,12/31/2024 11:06:45 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 22796.
+Warning,12/31/2024 12:06:15 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 17432.
+Warning,12/30/2024 3:38:37 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 17432.
+Warning,12/30/2024 2:26:35 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name licensing.mp.microsoft.com timed out after none of the configured DNS servers responded. Client PID 10264.
+Warning,12/29/2024 11:28:09 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name media.frdp4-2.fna.whatsapp.net timed out after none of the configured DNS servers responded. Client PID 20328.
+Warning,12/29/2024 7:37:40 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name substrate.office.com timed out after none of the configured DNS servers responded. Client PID 14736.
+Warning,12/28/2024 1:28:12 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name relay-79bd7d4f.net.anydesk.com timed out after none of the configured DNS servers responded. Client PID 5888.
+Warning,12/28/2024 12:52:45 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name client.wns.windows.com timed out after none of the configured DNS servers responded. Client PID 6748.
+Warning,12/27/2024 11:33:34 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name aefd.nelreports.net timed out after none of the configured DNS servers responded. Client PID 13756.
+Warning,12/27/2024 10:46:21 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name ssl.gstatic.com timed out after none of the configured DNS servers responded. Client PID 40812.
+Warning,12/27/2024 10:28:34 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name geover.prod.do.dsp.mp.microsoft.com timed out after none of the configured DNS servers responded. Client PID 35172.
+Warning,12/27/2024 9:29:55 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name login.live.com timed out after none of the configured DNS servers responded. Client PID 38756.
+Warning,12/25/2024 6:02:53 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 20164.
+Warning,12/24/2024 11:14:18 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name fd.api.iris.microsoft.com timed out after none of the configured DNS servers responded. Client PID 22912.
+Warning,12/24/2024 1:42:22 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 31364.
+Warning,12/23/2024 9:51:01 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name www.youtube.com timed out after none of the configured DNS servers responded. Client PID 28272.
+Warning,12/23/2024 9:50:53 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name accounts.youtube.com timed out after none of the configured DNS servers responded. Client PID 28272.
+Warning,12/22/2024 7:21:20 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name hianime.to timed out after none of the configured DNS servers responded. Client PID 35236.
+Warning,12/22/2024 12:06:56 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name spov-ring-fallback.msedge.net timed out after none of the configured DNS servers responded. Client PID 21584.
+Warning,12/22/2024 10:19:55 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name boot.net.anydesk.com timed out after none of the configured DNS servers responded. Client PID 5888.
+Warning,12/21/2024 11:07:58 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name login.live.com timed out after none of the configured DNS servers responded. Client PID 21072.
+Warning,12/21/2024 7:34:17 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 1244.
+Warning,12/20/2024 11:29:08 PM,Tcpip,4205,,Autoconfigured route limit has been reached. No further autoconfigured routes will be added until the interface is reconnected.
+Warning,12/20/2024 11:03:31 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 5384.
+Warning,12/20/2024 10:53:39 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 23224.
+Warning,12/20/2024 3:16:55 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 2376.
+Warning,12/19/2024 10:14:49 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 10364.
+Warning,12/19/2024 7:14:59 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name settings-win.data.microsoft.com timed out after none of the configured DNS servers responded. Client PID 10528.
+Warning,12/19/2024 6:40:33 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name r23.lacinhcet.com timed out after none of the configured DNS servers responded. Client PID 14320.
+Warning,12/19/2024 4:37:08 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 12016.
+Warning,12/17/2024 11:54:02 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 21960.
+Warning,12/17/2024 2:52:00 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name updates.bravesoftware.com timed out after none of the configured DNS servers responded. Client PID 19168.
+Warning,12/17/2024 2:51:47 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name rr1---sn-hxbicxa5cc5oq-jj06.googlevideo.com timed out after none of the configured DNS servers responded. Client PID 19176.
+Warning,12/17/2024 2:13:11 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 24296.
+Warning,12/15/2024 11:28:07 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fdv2.msedge.net timed out after none of the configured DNS servers responded. Client PID 17364.
+Warning,12/15/2024 1:58:54 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-ring-fallbacks2.msedge.net timed out after none of the configured DNS servers responded. Client PID 17364.
+Warning,12/15/2024 12:52:15 PM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name relay-5166bfb1.net.anydesk.com timed out after none of the configured DNS servers responded. Client PID 4940.
+Warning,12/15/2024 2:18:10 AM,User32,1075,,"The last restart/shutdown request of computer RITAM-ASUS was aborted by user RITAM-ASUS\ritam
+"
+Warning,12/15/2024 2:15:34 AM,Microsoft-Windows-DNS-Client,1014,(1014),Name resolution for the name t-s2-ring.msedge.net timed out after none of the configured DNS servers responded. Client PID 2340.

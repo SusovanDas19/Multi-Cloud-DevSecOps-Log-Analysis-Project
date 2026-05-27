@@ -1,0 +1,4 @@
+Level,Date and Time,Source,Event ID,Task Category,Log Message
+Critical,4/2/2025 2:11:41 AM,Microsoft-Windows-Kernel-Power,41,(63),"The system has rebooted without cleanly shutting down first. This error could be caused if the system stopped responding, crashed, or lost power unexpectedly."
+Critical,3/30/2025 10:17:57 PM,Microsoft-Windows-DriverFrameworks-UserMode,10111,User-mode Driver problems.,The device FocalTech Fingerprint Reader (location Port_#0001.Hub_#0002) is offline due to a user-mode driver crash.  Windows will attempt to restart the device 5 more times.  Please contact the device manufacturer for more information about this problem.
+Critical,3/30/2025 10:17:57 PM,Microsoft-Windows-DriverFrameworks-UserMode,10120,User-mode Driver problems.,A problem has occurred with one or more user-mode drivers and the hosting process has been terminated.  This may temporarily interrupt your ability to access the devices.

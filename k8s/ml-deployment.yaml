@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: logguard-ml
+  labels:
+    app: logguard-ml
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: logguard-ml
+  template:
+    metadata:
+      labels:
+        app: logguard-ml
+    spec:
+      containers:
+        - name: ml
+          image: DOCKER_USERNAME_PLACEHOLDER/logguard-ml:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8001
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8001
+            initialDelaySeconds: 60
+            periodSeconds: 30
+            failureThreshold: 5
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 8001
+            initialDelaySeconds: 30
+            periodSeconds: 15
+            failureThreshold: 5
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "250m"
+            limits:
+              memory: "1500Mi"
+              cpu: "1000m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: logguard-ml-service
+  labels:
+    app: logguard-ml
+spec:
+  type: ClusterIP
+  selector:
+    app: logguard-ml
+  ports:
+    - name: http
+      port: 8001
+      targetPort: 8001

@@ -1,0 +1,305 @@
+name: DevSecOps CI/CD Pipeline
+
+on:
+  push:
+    branches: ["main", "master"]
+  pull_request:
+    branches: ["main", "master"]
+
+env:
+  DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+  AZURE_VM_IP: ${{ secrets.AZURE_VM_IP }}
+
+jobs:
+
+  # ────────────────────────────────────────────────────────────────
+  # JOB 1 — Infrastructure Security Scan (Checkov)
+  # ────────────────────────────────────────────────────────────────
+  iac-scan:
+    name: Infrastructure Security
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Checkov on Terraform
+        uses: bridgecrewio/checkov-action@master
+        with:
+          directory: terraform/
+          framework: terraform
+          soft_fail: true
+          output_format: cli
+
+  # ────────────────────────────────────────────────────────────────
+  # JOB 2 — Code Quality Analysis (SonarCloud)
+  # ────────────────────────────────────────────────────────────────
+  sast-scan:
+    name: Code Quality Analysis
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+        with:
+          projectBaseDir: .
+          args: >
+            -Dsonar.projectKey=${{ vars.SONAR_PROJECT_KEY || 'logguard' }}
+            -Dsonar.organization=${{ vars.SONAR_ORG || 'logguard' }}
+        continue-on-error: true
+
+  # ────────────────────────────────────────────────────────────────
+  # JOB 3 — Kubernetes Policy Enforcement (OPA / Conftest)
+  # ────────────────────────────────────────────────────────────────
+  k8s-policy:
+    name: Kubernetes Policy Enforcement
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Conftest
+        run: |
+          wget -q https://github.com/open-policy-agent/conftest/releases/download/v0.55.0/conftest_0.55.0_Linux_x86_64.tar.gz
+          tar xzf conftest_0.55.0_Linux_x86_64.tar.gz
+          sudo mv conftest /usr/local/bin/
+
+      - name: Run OPA policy check on API deployment
+        run: |
+          conftest test k8s/api-deployment.yaml \
+            --policy policy/k8s.rego \
+            --namespace main
+
+      - name: Run OPA policy check on Web deployment
+        run: |
+          conftest test k8s/web-deployment.yaml \
+            --policy policy/k8s.rego \
+            --namespace main
+
+      - name: Run OPA policy check on ML deployment
+        run: |
+          conftest test k8s/ml-deployment.yaml \
+            --policy policy/k8s.rego \
+            --namespace main
+
+  # ────────────────────────────────────────────────────────────────
+  # JOB 4 — Build Images + Trivy Scan + Push to Docker Hub
+  # ────────────────────────────────────────────────────────────────
+  build-and-scan:
+    name: Image Build & Vulnerability Scan
+    runs-on: ubuntu-latest
+    needs: [iac-scan, sast-scan, k8s-policy]
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      # ── Build API image ─────────────────────────────────────────
+      - name: Build API image
+        run: |
+          docker build \
+            -f log-monitoring-platform/apps/api/Dockerfile \
+            -t ${{ secrets.DOCKER_USERNAME }}/logguard-api:${{ github.sha }} \
+            -t ${{ secrets.DOCKER_USERNAME }}/logguard-api:latest \
+            .
+
+      - name: Scan API image with Trivy
+        uses: aquasecurity/trivy-action@0.28.0
+        with:
+          image-ref: "${{ secrets.DOCKER_USERNAME }}/logguard-api:${{ github.sha }}"
+          format: "table"
+          exit-code: "1"
+          ignore-unfixed: true
+          vuln-type: "os,library"
+          severity: "CRITICAL"
+
+      # ── Build Web image ─────────────────────────────────────────
+      - name: Build Web image
+        run: |
+          docker build \
+            -f log-monitoring-platform/apps/web/Dockerfile \
+            --build-arg VITE_API_BASE_URL=http://${{ secrets.AZURE_VM_IP }}:30080/api \
+            -t ${{ secrets.DOCKER_USERNAME }}/logguard-web:${{ github.sha }} \
+            -t ${{ secrets.DOCKER_USERNAME }}/logguard-web:latest \
+            .
+
+      - name: Scan Web image with Trivy
+        uses: aquasecurity/trivy-action@0.28.0
+        with:
+          image-ref: "${{ secrets.DOCKER_USERNAME }}/logguard-web:${{ github.sha }}"
+          format: "table"
+          exit-code: "1"
+          ignore-unfixed: true
+          vuln-type: "os,library"
+          severity: "CRITICAL"
+
+      # ── Build ML image ──────────────────────────────────────────
+      - name: Build ML image
+        run: |
+          docker build \
+            -f log-monitoring-platform/apps/ml/Dockerfile \
+            -t ${{ secrets.DOCKER_USERNAME }}/logguard-ml:${{ github.sha }} \
+            -t ${{ secrets.DOCKER_USERNAME }}/logguard-ml:latest \
+            .
+
+      - name: Scan ML image with Trivy
+        uses: aquasecurity/trivy-action@0.28.0
+        with:
+          image-ref: "${{ secrets.DOCKER_USERNAME }}/logguard-ml:${{ github.sha }}"
+          format: "table"
+          exit-code: "1"
+          ignore-unfixed: true
+          vuln-type: "os,library"
+          severity: "CRITICAL"
+
+      # ── Push all images ─────────────────────────────────────────
+      - name: Push all images to Docker Hub
+        run: |
+          docker push ${{ secrets.DOCKER_USERNAME }}/logguard-api:${{ github.sha }}
+          docker push ${{ secrets.DOCKER_USERNAME }}/logguard-api:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/logguard-web:${{ github.sha }}
+          docker push ${{ secrets.DOCKER_USERNAME }}/logguard-web:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/logguard-ml:${{ github.sha }}
+          docker push ${{ secrets.DOCKER_USERNAME }}/logguard-ml:latest
+
+  # ────────────────────────────────────────────────────────────────
+  # JOB 5 — Deploy to Azure Kubernetes
+  # ────────────────────────────────────────────────────────────────
+  deploy:
+    name: Azure Kubernetes Deployment
+    runs-on: ubuntu-latest
+    needs: build-and-scan
+    if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Login to Azure
+        uses: azure/login@v2
+        with:
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+
+      - name: Get secrets from Azure Key Vault
+        id: kv
+        uses: azure/get-keyvault-secrets@v1
+        with:
+          keyvault: ${{ secrets.AZURE_KEY_VAULT_NAME }}
+          secrets: >
+            database-url,
+            jwt-secret,
+            gemini-api-key,
+            aws-access-key-id,
+            aws-secret-access-key,
+            aws-s3-bucket,
+            aws-region,
+            cors-origin
+
+      - name: Inject values into Kubernetes manifests
+        run: |
+          # Replace DOCKER_USERNAME placeholder in all deployment files
+          sed -i "s|DOCKER_USERNAME_PLACEHOLDER|${{ secrets.DOCKER_USERNAME }}|g" k8s/api-deployment.yaml
+          sed -i "s|DOCKER_USERNAME_PLACEHOLDER|${{ secrets.DOCKER_USERNAME }}|g" k8s/web-deployment.yaml
+          sed -i "s|DOCKER_USERNAME_PLACEHOLDER|${{ secrets.DOCKER_USERNAME }}|g" k8s/ml-deployment.yaml
+
+          # Replace all placeholders in secrets.yaml
+          sed -i "s|DATABASE_URL_PLACEHOLDER|${{ steps.kv.outputs.database-url }}|g"            k8s/secrets.yaml
+          sed -i "s|JWT_SECRET_PLACEHOLDER|${{ steps.kv.outputs.jwt-secret }}|g"                k8s/secrets.yaml
+          sed -i "s|GEMINI_API_KEY_PLACEHOLDER|${{ steps.kv.outputs.gemini-api-key }}|g"        k8s/secrets.yaml
+          sed -i "s|AWS_ACCESS_KEY_ID_PLACEHOLDER|${{ steps.kv.outputs.aws-access-key-id }}|g"  k8s/secrets.yaml
+          sed -i "s|AWS_SECRET_ACCESS_KEY_PLACEHOLDER|${{ steps.kv.outputs.aws-secret-access-key }}|g" k8s/secrets.yaml
+          sed -i "s|AWS_S3_BUCKET_PLACEHOLDER|${{ steps.kv.outputs.aws-s3-bucket }}|g"          k8s/secrets.yaml
+          sed -i "s|AWS_REGION_PLACEHOLDER|${{ steps.kv.outputs.aws-region }}|g"                k8s/secrets.yaml
+          sed -i "s|CORS_ORIGIN_PLACEHOLDER|${{ steps.kv.outputs.cors-origin }}|g"              k8s/secrets.yaml
+
+      - name: Copy Kubernetes manifests to Azure VM
+        uses: appleboy/scp-action@master
+        with:
+          host: ${{ secrets.AZURE_VM_IP }}
+          username: azureuser
+          key: ${{ secrets.AZURE_VM_SSH_KEY }}
+          source: "k8s/"
+          target: "/home/azureuser/"
+
+      - name: Deploy to Kubernetes
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.AZURE_VM_IP }}
+          username: azureuser
+          key: ${{ secrets.AZURE_VM_SSH_KEY }}
+          script: |
+            set -e
+
+            echo "--- Applying Kubernetes Secret ---"
+            kubectl apply -f /home/azureuser/k8s/secrets.yaml
+
+            echo "--- Deploying API ---"
+            kubectl apply -f /home/azureuser/k8s/api-deployment.yaml
+
+            echo "--- Deploying Web ---"
+            kubectl apply -f /home/azureuser/k8s/web-deployment.yaml
+
+            echo "--- Deploying ML ---"
+            kubectl apply -f /home/azureuser/k8s/ml-deployment.yaml
+
+            echo "--- Rolling restart to pull latest images ---"
+            kubectl rollout restart deployment/logguard-api
+            kubectl rollout restart deployment/logguard-web
+            kubectl rollout restart deployment/logguard-ml
+
+            echo "--- Waiting for API rollout ---"
+            kubectl rollout status deployment/logguard-api --timeout=120s
+
+            echo "--- Waiting for Web rollout ---"
+            kubectl rollout status deployment/logguard-web --timeout=120s
+
+            echo "--- Pod status ---"
+            kubectl get pods
+
+  # ────────────────────────────────────────────────────────────────
+  # JOB 6 — DAST Scan (OWASP ZAP)
+  # ────────────────────────────────────────────────────────────────
+  dast-scan:
+    name: OWASP ZAP DAST Scan
+    runs-on: ubuntu-latest
+    needs: deploy
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Wait for deployment to stabilise
+        run: sleep 30
+
+      - name: ZAP Baseline Scan
+        uses: zaproxy/action-baseline@v0.14.0
+        with:
+          target: "http://${{ secrets.AZURE_VM_IP }}:30090"
+          fail_action: false
+          token: ${{ secrets.GITHUB_TOKEN }}
+          allow_issue_writing: true
+
+      - name: Upload ZAP scan report
+        uses: actions/upload-artifact@v4
+        with:
+          name: zap-scan-report
+          path: |
+            report_html.html
+            report_json.json
+            report_md.md
+          if-no-files-found: warn

@@ -1,0 +1,125 @@
+Level,Date and Time,Source,Event ID,Task Category,Log Message
+Error,4/4/2025 3:11:45 PM,Microsoft-Windows-WindowsUpdateClient,20,Windows Update Agent,Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NZKPSTSNW4P-Microsoft.XboxGamingOverlay.
+Error,4/4/2025 9:25:36 AM,Microsoft-Windows-DistributedCOM,10010,,The server {A463FCB9-6B1C-4E0D-A80B-A2CA7999E25D} did not register with DCOM within the required timeout.
+Error,4/4/2025 8:48:13 AM,Service Control Manager,7000,,"The l1vhlwf service failed to start due to the following error: 
+A hypervisor feature is not available to the user."
+Error,4/4/2025 3:00:29 AM,Microsoft-Windows-DeviceAssociationService,3503,(5000),Device Association Service detected an endpoint discovery failure.
+Error,4/2/2025 2:05:53 PM,Microsoft-Windows-DistributedCOM,10010,,The server {338B40F9-9D68-4B53-A793-6B9AA0C5F63B} did not register with DCOM within the required timeout.
+Error,4/2/2025 1:49:01 PM,Microsoft-Windows-DistributedCOM,10010,,The server {2DE3095A-B49E-418F-B5C1-69D2CCF62A8F} did not register with DCOM within the required timeout.
+Error,4/2/2025 1:22:07 PM,Microsoft-Windows-WindowsUpdateClient,20,Windows Update Agent,Installation Failure: Windows failed to install the following update with error 0x80073D02: 9MSSGKG348SP-MicrosoftWindows.Client.WebExperience.
+Error,4/2/2025 2:11:51 AM,Microsoft-Windows-WER-SystemErrorReporting,1001,,"The computer has rebooted from a bugcheck.  The bugcheck was: 0x0000009f (0x0000000000000003, 0xffffc605e84ece10, 0xffffd6068aa67a00, 0xffffc605ecad98f0). A dump was saved in: C:\WINDOWS\Minidump\040225-12671-01.dmp. Report Id: 0426c240-ce72-419e-9567-df44242f713a."
+Error,4/2/2025 2:11:41 AM,volmgr,162,,Dump file generation succeded.
+Error,4/2/2025 2:11:41 AM,volmgr,161,,Dump file creation failed due to error during dump creation. BugCheckProgress was: 0x00020063
+Error,4/2/2025 2:11:52 AM,EventLog,6008,,The previous system shutdown at 2:02:40 AM on ‎4/‎2/‎2025 was unexpected.
+Error,4/1/2025 11:21:05 PM,Microsoft-Windows-DistributedCOM,10010,,The server {354FF91B-5E49-4BDC-A8E6-1CB6C6877182} did not register with DCOM within the required timeout.
+Error,4/1/2025 9:14:43 PM,Service Control Manager,7011,,A timeout (30000 milliseconds) was reached while waiting for a transaction response from the ASUSProArtUpdateService service.
+Error,4/1/2025 9:14:03 PM,Service Control Manager,7011,,A timeout (30000 milliseconds) was reached while waiting for a transaction response from the ASUSSystemAnalysis service.
+Error,4/1/2025 8:22:53 PM,Microsoft-Windows-DistributedCOM,10010,,The server {B8C1DCAE-5020-4F5D-BA2A-85292744E334} did not register with DCOM within the required timeout.
+Error,4/1/2025 3:45:20 PM,BTHUSB,17,,The local Bluetooth adapter has failed in an undetermined manner and will not be used. The driver has been unloaded.
+Error,3/31/2025 2:34:56 PM,Microsoft-Windows-NDIS,10317,PnP,"Miniport Microsoft Wi-Fi Direct Virtual Adapter #2, {2ba7f54e-e68e-49fa-a799-643d37fce18d}, had event Fatal error: The miniport has failed a power transition to operational power"
+Error,3/30/2025 10:17:56 PM,Service Control Manager,7034,,The Windows Biometric Service service terminated unexpectedly.  It has done this 1 time(s).
+Error,3/30/2025 1:55:29 AM,Microsoft-Windows-WindowsUpdateClient,20,Windows Update Agent,Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NKSQGP7F2NH-5319275A.WhatsAppDesktop.
+Error,3/29/2025 6:33:16 PM,Microsoft-Windows-WindowsUpdateClient,20,Windows Update Agent,Installation Failure: Windows failed to install the following update with error 0x80073D02: 9N7R5S6B0ZZH-B9ECED6F.ASUSPCAssistant.
+Error,3/29/2025 4:26:54 AM,Microsoft-Windows-DistributedCOM,10010,,The server {1F18FC75-A353-4121-AEDB-19DF9C98F622} did not register with DCOM within the required timeout.
+Error,3/28/2025 4:57:33 PM,Microsoft-Windows-DistributedCOM,10005,,"DCOM got error ""1115"" attempting to start the service wuauserv with arguments ""Unavailable"" in order to run the server:
+{E60687F7-01A1-40AA-86AC-DB1CBF673334}"
+Error,3/23/2025 12:31:46 PM,Microsoft-Windows-WindowsUpdateClient,20,Windows Update Agent,Installation Failure: Windows failed to install the following update with error 0x80240016: Security Intelligence Update for Microsoft Defender Antivirus - KB2267602 (Version 1.425.184.0) - Current Channel (Broad).
+Error,3/17/2025 8:44:54 PM,Microsoft-Windows-WindowsUpdateClient,20,Windows Update Agent,Installation Failure: Windows failed to install the following update with error 0x80073D02: 9PM860492SZD-Microsoft.MicrosoftPCManager.
+Error,3/17/2025 12:37:10 PM,Service Control Manager,7011,,A timeout (30000 milliseconds) was reached while waiting for a transaction response from the VMUSBArbService service.
+Error,3/15/2025 11:34:00 PM,Microsoft-Windows-WindowsUpdateClient,20,Windows Update Agent,Installation Failure: Windows failed to install the following update with error 0x8024200B: Realtek - AudioProcessingObject - 13.1909.1609.482.
+Error,3/15/2025 9:53:16 PM,Service Control Manager,7046,,"The following service has repeatedly stopped responding to service control requests: Device Setup Manager
+
+Contact the service vendor or the system administrator about whether to disable this service until the problem is identified.
+
+You may have to restart the computer in safe mode before you can disable the service."
+Error,3/15/2025 9:02:41 PM,Service Control Manager,7011,,A timeout (30000 milliseconds) was reached while waiting for a transaction response from the DsmSvc service.
+Error,3/15/2025 5:34:57 PM,Microsoft-Windows-DistributedCOM,10010,,The server {283EDD52-69B2-473D-BEB6-2C0B4C01FD73} did not register with DCOM within the required timeout.
+Error,3/15/2025 9:53:41 AM,Service Control Manager,7031,,The AnyDesk Service service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 0 milliseconds: Restart the service.
+Error,3/15/2025 9:53:39 AM,Service Control Manager,7031,,The ASUS ProArt Update Service service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 0 milliseconds: Restart the service.
+Error,3/14/2025 6:25:06 PM,Microsoft-Windows-DistributedCOM,10005,,"DCOM got error ""87"" attempting to start the service GamingServices with arguments ""Unavailable"" in order to run the server:
+{D529741A-1BF1-4D1E-9976-35089622E758}"
+Error,3/14/2025 6:25:06 PM,Microsoft-Windows-DistributedCOM,10005,,"DCOM got error ""87"" attempting to start the service GamingServices with arguments ""Unavailable"" in order to run the server:
+{3E8C9ABE-9226-4609-BF5B-60288A391DEE}"
+Error,3/13/2025 1:27:22 PM,Service Control Manager,7011,,A timeout (30000 milliseconds) was reached while waiting for a transaction response from the cfbackd service.
+Error,3/13/2025 10:08:54 AM,Service Control Manager,7023,,"The Tenable Nessus service terminated with the following error: 
+The handle is invalid."
+Error,3/10/2025 8:29:17 AM,Microsoft-Windows-DistributedCOM,10010,,The server {08728914-3F57-4D52-9E31-49DAECA5A80A} did not register with DCOM within the required timeout.
+Error,3/8/2025 1:46:12 AM,Microsoft-Windows-DistributedCOM,10010,,The server {C53A4F16-787E-42A4-B304-29EFFB4BF597} did not register with DCOM within the required timeout.
+Error,3/7/2025 7:10:39 PM,Service Control Manager,7009,,A timeout was reached (30000 milliseconds) while waiting for the Windows Error Reporting Service service to connect.
+Error,3/6/2025 3:28:18 AM,Microsoft-Windows-WindowsUpdateClient,20,Windows Update Agent,Installation Failure: Windows failed to install the following update with error 0x8024200B: Realtek Semiconductor Corp. - Extension - 6.0.9797.1.
+Error,3/3/2025 4:29:32 AM,Service Control Manager,7000,,"The ASUSProArtUpdateService service failed to start due to the following error: 
+The service did not respond to the start or control request in a timely fashion."
+Error,3/3/2025 4:29:29 AM,Service Control Manager,7023,,"The GamingServices service terminated with the following error: 
+The data is invalid."
+Error,3/1/2025 10:58:42 AM,Microsoft-Windows-DistributedCOM,10010,,The server {69B7FE84-6361-4423-B948-1D64820B1E96} did not register with DCOM within the required timeout.
+Error,2/27/2025 8:24:18 PM,Service Control Manager,7043,,The Windows Security Service service did not shut down properly after receiving a preshutdown control.
+Error,2/27/2025 7:01:55 PM,Microsoft-Windows-WindowsUpdateClient,20,Windows Update Agent,Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NMPJ99VJBWV-Microsoft.YourPhone.
+Error,2/26/2025 2:12:30 PM,Service Control Manager,7000,,"The Network Setup Service service failed to start due to the following error: 
+The service did not respond to the start or control request in a timely fashion."
+Error,2/26/2025 2:12:30 PM,Service Control Manager,7009,,A timeout was reached (30000 milliseconds) while waiting for the Network Setup Service service to connect.
+Error,2/24/2025 4:47:37 PM,Microsoft-Windows-DistributedCOM,10010,,The server {021E4F06-9DCC-49AD-88CF-ECC2DA314C8A} did not register with DCOM within the required timeout.
+Error,2/23/2025 2:30:54 PM,Microsoft-Windows-DistributedCOM,10010,,The server {9489FEB2-1925-4D01-B788-6D912C70F7F2} did not register with DCOM within the required timeout.
+Error,2/23/2025 12:36:33 PM,Microsoft-Windows-DistributedCOM,10010,,The server Microsoft.Windows.ContentDeliveryManager_10.0.26100.1_neutral_neutral_cw5n1h2txyewy!App.AppX2dz2dz7bvszf1srfbwq1tqyrpq3nvxf6.mca did not register with DCOM within the required timeout.
+Error,2/20/2025 1:23:09 PM,Service Control Manager,7011,,A timeout (30000 milliseconds) was reached while waiting for a transaction response from the ASUSOptimization service.
+Error,2/18/2025 3:51:54 AM,Microsoft-Windows-DistributedCOM,10010,,The server DolbyLaboratories.DolbyAccess_3.26.1420.0_x64__rz1tebttyb220!App.AppX1vq60yhpapky3fc2vj8qa51f0d03x54j.mca did not register with DCOM within the required timeout.
+Error,2/12/2025 6:05:12 PM,BTHUSB,16,,The mutual authentication between the local Bluetooth adapter and a device with Bluetooth adapter address (20:cd:6e:64:d8:a0) failed.
+Error,2/7/2025 7:27:59 PM,Microsoft-Windows-WindowsUpdateClient,20,Windows Update Agent,Installation Failure: Windows failed to install the following update with error 0x80073D02: 9NHT9RB2F4HD-Microsoft.Copilot.
+Error,2/4/2025 12:35:03 PM,Microsoft-Windows-HAL,15,,"The IOMMU has detected an error.
+
+Device: 0x400
+FaultInformation: 0x42F6B0B00
+FaultReason: 0x6
+ExtendedData: 0x0"
+Error,1/31/2025 6:51:09 PM,Service Control Manager,7034,,The Windows Camera Frame Server service terminated unexpectedly.  It has done this 1 time(s).
+Error,1/25/2025 12:19:06 AM,Service Control Manager,7000,,"The Nested Network Virtualization service failed to start due to the following error: 
+A hypervisor feature is not available to the user."
+Error,1/25/2025 12:18:56 AM,Service Control Manager,7000,,"The VMSP service failed to start due to the following error: 
+Insufficient system resources exist to complete the requested service."
+Error,1/23/2025 12:23:35 PM,Microsoft-Windows-DistributedCOM,10010,,The server DolbyLaboratories.DolbyAccess_3.25.1670.0_x64__rz1tebttyb220!App.AppX1vq60yhpapky3fc2vj8qa51f0d03x54j.mca did not register with DCOM within the required timeout.
+Error,1/17/2025 11:06:34 AM,Tcpip,4207,,The IPv4 TCP/IP interface with index 11 failed to bind to its provider.
+Error,1/17/2025 9:14:56 AM,Microsoft-Windows-DistributedCOM,10010,,The server {FD06603A-2BDF-4BB1-B7DF-5DC68F353601} did not register with DCOM within the required timeout.
+Error,1/16/2025 2:45:18 AM,Microsoft-Windows-DistributedCOM,10010,,The server {AB8902B4-09CA-4BB6-B78D-A8F59079A8D5} did not register with DCOM within the required timeout.
+Error,1/16/2025 2:07:25 AM,nvlddmkm,13,,"The description for Event ID 13 from source nvlddmkm cannot be found. Either the component that raises this event is not installed on your local computer or the installation is corrupted. You can install or repair the component on the local computer.
+
+If the event originated on another computer, the display information had to be saved with the event.
+
+The following information was included with the event: 
+
+\Device\UVMLiteController0x1
+Graphics FECS Exception: Logging error 0x2
+
+The message resource is present but the message was not found in the message table
+"
+Error,1/13/2025 12:54:32 PM,Service Control Manager,7043,,The Windows Update service did not shut down properly after receiving a preshutdown control.
+Error,1/7/2025 10:47:01 PM,Microsoft-Windows-DistributedCOM,10010,,The server {8CFC164F-4BE5-4FDD-94E9-E2AF73ED4A19} did not register with DCOM within the required timeout.
+Error,1/6/2025 8:23:38 PM,Microsoft-Windows-WindowsUpdateClient,20,Windows Update Agent,Installation Failure: Windows failed to install the following update with error 0x80073D02: 9WZDNCRFJ3P2-MICROSOFT.ZUNEVIDEO.
+Error,1/5/2025 10:49:35 PM,Service Control Manager,7000,,"The AppX Deployment Service (AppXSVC) service failed to start due to the following error: 
+The service did not respond to the start or control request in a timely fashion."
+Error,1/5/2025 10:49:35 PM,Service Control Manager,7009,,A timeout was reached (30000 milliseconds) while waiting for the AppX Deployment Service (AppXSVC) service to connect.
+Error,1/3/2025 3:58:39 PM,Service Control Manager,7000,,"The Diagnostic System Host service failed to start due to the following error: 
+The service did not respond to the start or control request in a timely fashion."
+Error,1/3/2025 3:58:39 PM,Service Control Manager,7009,,A timeout was reached (30000 milliseconds) while waiting for the Diagnostic System Host service to connect.
+Error,1/2/2025 10:02:48 PM,Microsoft-Windows-DistributedCOM,10010,,The server 5319275A.WhatsAppDesktop_2.2450.6.0_x64__cv1g1gvanyjgm!App.AppXagyrmpyx1bhhy2gjpvcnfecxpg298mss.mca did not register with DCOM within the required timeout.
+Error,1/2/2025 10:02:48 PM,Microsoft-Windows-DistributedCOM,10010,,The server DolbyLaboratories.DolbyAccess_3.25.1670.0_x64__rz1tebttyb220!Windows.Networking.ContentPrefetcher.Internal.ContentPrefetcherTask.ClassId.1 did not register with DCOM within the required timeout.
+Error,1/2/2025 10:02:48 PM,Microsoft-Windows-DistributedCOM,10010,,The server Microsoft.Todos_2.114.7122.0_x64__8wekyb3d8bbwe!App.AppXcakmdstz39gy6mq7cx2par6qckax124x.mca did not register with DCOM within the required timeout.
+Error,1/2/2025 12:42:24 AM,Service Control Manager,7011,,A timeout (30000 milliseconds) was reached while waiting for a transaction response from the CDPSvc service.
+Error,1/1/2025 5:04:00 PM,Microsoft-Windows-WER-SystemErrorReporting,1001,,"The computer has rebooted from a bugcheck.  The bugcheck was: 0x0000014f (0x0000000000000005, 0x0000000000000002, 0xfffff80560772850, 0xffff828d1b04f9e0). A dump was saved in: C:\WINDOWS\Minidump\010125-13421-01.dmp. Report Id: fbf7f5ef-354f-42e2-83da-278fd44dada3."
+Error,1/1/2025 5:04:01 PM,EventLog,6008,,The previous system shutdown at 3:09:39 PM on ‎1/‎1/‎2025 was unexpected.
+Error,1/1/2025 2:54:54 AM,Microsoft-Windows-DistributedCOM,10010,,The server {5250E46F-BB09-D602-5891-F476DC89B700} did not register with DCOM within the required timeout.
+Error,1/1/2025 1:09:52 AM,Service Control Manager,7000,,"The Microsoft Account Sign-in Assistant service failed to start due to the following error: 
+The service did not respond to the start or control request in a timely fashion."
+Error,1/1/2025 1:09:52 AM,Service Control Manager,7009,,A timeout was reached (30000 milliseconds) while waiting for the Microsoft Account Sign-in Assistant service to connect.
+Error,1/1/2025 1:09:52 AM,Service Control Manager,7011,,A timeout (30000 milliseconds) was reached while waiting for a transaction response from the Spooler service.
+Error,12/29/2024 9:40:46 AM,Service Control Manager,7031,,The Tenable Nessus service terminated unexpectedly.  It has done this 4 time(s).  The following corrective action will be taken in 0 milliseconds: Restart the service.
+Error,12/29/2024 9:39:37 AM,Service Control Manager,7031,,The Tenable Nessus service terminated unexpectedly.  It has done this 3 time(s).  The following corrective action will be taken in 0 milliseconds: Restart the service.
+Error,12/29/2024 9:39:30 AM,Service Control Manager,7031,,The Tenable Nessus service terminated unexpectedly.  It has done this 2 time(s).  The following corrective action will be taken in 0 milliseconds: Restart the service.
+Error,12/29/2024 9:39:18 AM,Service Control Manager,7031,,The Tenable Nessus service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 0 milliseconds: Restart the service.
+Error,12/23/2024 8:19:34 PM,Microsoft-Windows-DistributedCOM,10005,,"DCOM got error ""1053"" attempting to start the service WaaSMedicSvc with arguments ""Unavailable"" in order to run the server:
+{72566E27-1ABB-4EB3-B4F0-EB431CB1CB32}"
+Error,12/23/2024 8:19:34 PM,Service Control Manager,7000,,"The WaaSMedicSvc service failed to start due to the following error: 
+The service did not respond to the start or control request in a timely fashion."
+Error,12/23/2024 8:19:34 PM,Service Control Manager,7009,,A timeout was reached (30000 milliseconds) while waiting for the WaaSMedicSvc service to connect.
+Error,12/19/2024 4:37:44 PM,Service Control Manager,7011,,A timeout (30000 milliseconds) was reached while waiting for a transaction response from the ASUSSoftwareManager service.
+Error,12/14/2024 12:27:59 AM,Service Control Manager,7043,,The Connected User Experiences and Telemetry service did not shut down properly after receiving a preshutdown control.
+Error,12/13/2024 6:05:15 PM,Service Control Manager,7031,,The GlideX Near Service service terminated unexpectedly.  It has done this 1 time(s).  The following corrective action will be taken in 0 milliseconds: Restart the service.
+Error,12/13/2024 6:02:40 PM,Service Control Manager,7030,,"The Printer Extensions and Notifications service is marked as an interactive service.  However, the system is configured to not allow interactive services.  This service may not function properly."
