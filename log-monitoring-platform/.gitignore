@@ -37,9 +37,6 @@ yarn-error.log*
 .DS_Store
 *.pem
 
-# ML trained model — large binary files, do not commit
-apps/ml/models/
-
 # Python
 __pycache__/
 *.pyc
